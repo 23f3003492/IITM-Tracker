@@ -19097,8 +19097,8 @@ function ProjectBox({ course, deadlines: deadlines2, style }) {
   const finalDates = {
     "MAD I": "July 14",
     "MAD II": "August 9",
-    "MLP": "Cutoff : July 21 & Viva : August 23",
-    "GenAI": "Cutoff : July 30 & Viva : August 15"
+    "MLP": "Cutoff - July 21 , Viva - August 23",
+    "GenAI": "Cutoff - July 30 , Viva - August 15"
   };
   const documentationLinks = {
     "MAD I": [
