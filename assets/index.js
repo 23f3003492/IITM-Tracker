@@ -19095,31 +19095,31 @@ function ProjectBox({ course, deadlines: deadlines2, style }) {
     displayTitle: d.title.replace("Project M", "Milestone ").replace("Project ", "Milestone ").replace(" (Final Submission)", "").replace(" (Final)", "")
   })).sort((a, b) => new Date(a.dueDate).getTime() - new Date(b.dueDate).getTime());
   const finalDates = {
-    "MAD I": "March 10",
-    "MAD II": "April 10",
-    "MLP": "March 15",
-    "GenAI": "March 30"
+    "MAD I": "July 14",
+    "MAD II": "August 9",
+    "MLP": "Cutoff : July 21 & Viva : August 23",
+    "GenAI": "Cutoff : July 30 & Viva : August 15"
   };
   const documentationLinks = {
     "MAD I": [
       { title: "MAD I Resources", url: "https://thejeshgn.com/projects/modern-application-development-1/" },
-      { title: "MAD I Document", url: "https://docs.google.com/document/u/7/d/e/2PACX-1vTE24mLeA0-xG9hIi74MziA4miXqkBbJvpWLDTdc26hDHDU5VXEwqOMBM4iGxU4-3FB5R4HQJvabb9v/pub" },
-      { title: "MAD I Statement", url: "https://docs.google.com/document/u/7/d/e/2PACX-1vQd_uj2D-ONcKs0Wi9_lTkR5xLOHS1zlmfhaRy8jHtlVVgyNbq3AVspa9BZmerTK0WAZ8qffqU76Fe7/pub" },
-      { title: "Milestones MAD-I", url: "https://docs.google.com/document/u/7/d/e/2PACX-1vTWfwFMzcK1IhBRtyPTo1n76ObS13z0guZAKRj2mt65T6_2VoLaL1Xr9R0-IfQkfY3F27FZgMkO2mK0/pub" }
+      { title: "MAD I Document", url: "https://docs.google.com/document/u/5/d/e/2PACX-1vR9pOLPVpZsrxqhtrmtLi8GAV2j2JxpisWkIHCjEb8WuYrgm4ZPq8S_Sor-MygixO4hvGcPbvO6Ei_W/pub" },
+      { title: "MAD I Statement", url: "https://docs.google.com/document/u/5/d/e/2PACX-1vQvgzwz2tFt96B8VApnHqWqlP3LtPDbnxYwAPyr8VOffLCm_Zh2JuTa51z7d1CNJbrZKC0oWPredYcV/pub" },
+      { title: "Milestones MAD-I", url: "https://docs.google.com/document/u/5/d/e/2PACX-1vSbKz5y5c1CNUTzOU2ARoa8DLFJLrnoUfepaBj4THYUsKTrdyC2H0iCOlItjWse1Su-tB-GtQJbw48g/pub" }
     ],
     "MAD II": [
       { title: "MAD II Resources", url: "https://thejeshgn.com/projects/modern-application-development-2/" },
-      { title: "MAD II Document", url: "https://docs.google.com/document/u/7/d/e/2PACX-1vS_z4eUvsNEAYcYDCdvyuUbgZhzn1rUjHap6tvx61kpr5RDj1rkkYzjb9gc2b6l755PAwwmQv-QKXyU/pub" },
-      { title: "MAD II Statement", url: "https://docs.google.com/document/u/7/d/e/2PACX-1vTcayCKq8OPAVeTZHXNwCXxvJfiQRcMxiiqXcNmrDkbiSwu9it0SCOkXwTytPy2Hx-p6IAkr6XSF4fB/pub" },
-      { title: "Milestones MAD-II", url: "https://docs.google.com/document/u/7/d/e/2PACX-1vTac3l7WHhdzZAFMR6HmBKqIzqEs8dF5v43CFSlHM2yuDD07_e1GEFTm4dLgcOUn1VY51W4V9YzWxEf/pub" }
+      { title: "MAD II Document", url: "https://docs.google.com/document/u/5/d/e/2PACX-1vTKQBIsllAp4VUq_rST3_rbpMSoADyfb3agZ1E-jrGQxMeN2lBNOXu3GS0mchzRWaxWa204q52tbFYA/pub" },
+      { title: "MAD II Statement", url: "https://docs.google.com/document/u/5/d/e/2PACX-1vSabfvSRC1BvxC5eNhzzj6PqBg1ATKq9nH_s_fVwOrG84-JNETkFkwienTgnmoAMSZZT9zsHdNwis4Y/pub" },
+      { title: "Milestones MAD-II", url: "https://docs.google.com/document/u/5/d/e/2PACX-1vTMf0j9016-ZTK_CKxMDRVVqqYWdcNgx9XzsIQ4ZY0YFFeQyKYBTaIePVc-LDhhfpLw9F0_QaUA6B_A/pub" }
     ],
     "MLP": [
-      { title: "MLP Guidelines", url: "https://docs.google.com/document/u/7/d/e/2PACX-1vSjp57VSo57LcJSh8XcJyYZN0NtyY2BkTM1ptC025MIfhmvIP2Oh2xYSIq-wqKDnzXEwccGVQ6A_orP/pub" },
-      { title: "MLP Competition", url: "https://www.kaggle.com/competitions/comment-category-prediction-challenge", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Zap, { className: "h-3 w-3" }) }
+      { title: "MLP Guidelines", url: "https://docs.google.com/document/u/5/d/e/2PACX-1vQM1DiqcSLdOdlor6fHgFh9pf7H7qyIzGR69Aek1W-A9dMIXVrfe069kqUkplPMRAiZBBIMJcp9XTCR/pub" },
+      { title: "MLP Competition", url: "https://www.kaggle.com/competitions/heavy-equipment-selling-price-prediction-challenge", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Zap, { className: "h-3 w-3" }) }
     ],
     "GenAI": [
-      { title: "DL Genai Guidelines", url: "https://docs.google.com/document/u/7/d/e/2PACX-1vSYbjQP5I2kvARBSZMGYaxsaGrfAEkxvNgGyP4VStsn1Ogb10XcqA-OjIcMYuWJ70thsgP-zh7iniGP/pub" },
-      { title: "GenAI Competition", url: "https://www.kaggle.com/competitions/jan-2026-dl-gen-ai-project", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Zap, { className: "h-3 w-3" }) }
+      { title: "DL Genai Guidelines", url: "https://docs.google.com/document/u/5/d/e/2PACX-1vTTorjQe5LH-TP_c0X-iDjdm-zX30uvJ3jv_QKtDvGsVoQydTkCWsfKwTUTcQv5syWsnSxmN4W3KFzE/pub" },
+      { title: "GenAI Competition", url: "https://www.kaggle.com/competitions/smart-mcq-solver-challenge", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Zap, { className: "h-3 w-3" }) }
     ]
   };
   const courseLinks = documentationLinks[course] || [];
