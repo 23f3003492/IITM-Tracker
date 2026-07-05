@@ -18787,7 +18787,7 @@ const deadlines = [
   { id: "mad2-pj", course: "MAD II", title: "Project", category: "Project", dueDate: "2026-08-09" },
   { id: "mlp-pj-m1", course: "MLP", title: "Project M1", category: "Project", dueDate: "2026-06-21" },
   { id: "mlp-pj-m2", course: "MLP", title: "Project M2", category: "Project", dueDate: "2026-06-28" },
-  { id: "mlp-pj-m3", course: "MLP", title: "Project M3", category: "Project", dueDate: "2026-07-05" },
+  { id: "mlp-pj-m3", course: "MLP", title: "Project M3", category: "Project", dueDate: "2026-07-07" },
   { id: "mlp-pj-m4", course: "MLP", title: "Project M4", category: "Project", dueDate: "2026-07-12" },
   { id: "mlp-pj-m5", course: "MLP", title: "Project M5 (Final)", category: "Project", dueDate: "2026-07-21" },
   { id: "genai-pj-m1", course: "GenAI", title: "Project M1", category: "Project", dueDate: "2026-06-24" },
