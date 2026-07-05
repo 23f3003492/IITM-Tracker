@@ -18783,19 +18783,19 @@ const deadlines = [
   { id: "genai-qz2", course: "GenAI", title: "Quiz 2", category: "Quiz", dueDate: "2026-04-12", weight: "20%" },
   { id: "genai-end", course: "GenAI", title: "End Term Exam", category: "Exam", dueDate: "2026-05-10", weight: "25%" },
   // ===== Projects & Milestones =====
-  { id: "mad1-pj", course: "MAD I", title: "Project", category: "Project", dueDate: "2026-03-10" },
-  { id: "mad2-pj", course: "MAD II", title: "Project", category: "Project", dueDate: "2026-04-10" },
-  { id: "mlp-pj-m1", course: "MLP", title: "Project M1", category: "Project", dueDate: "2026-02-15" },
-  { id: "mlp-pj-m2", course: "MLP", title: "Project M2", category: "Project", dueDate: "2026-02-22" },
-  { id: "mlp-pj-m3", course: "MLP", title: "Project M3", category: "Project", dueDate: "2026-03-01" },
-  { id: "mlp-pj-m4", course: "MLP", title: "Project M4", category: "Project", dueDate: "2026-03-08" },
-  { id: "mlp-pj-m5", course: "MLP", title: "Project M5 (Final)", category: "Project", dueDate: "2026-03-15" },
-  { id: "genai-pj-m1", course: "GenAI", title: "Project M1", category: "Project", dueDate: "2026-02-18" },
-  { id: "genai-pj-m2", course: "GenAI", title: "Project M2", category: "Project", dueDate: "2026-02-25" },
-  { id: "genai-pj-m3", course: "GenAI", title: "Project M3", category: "Project", dueDate: "2026-03-04" },
-  { id: "genai-pj-m4", course: "GenAI", title: "Project M4", category: "Project", dueDate: "2026-03-11" },
-  { id: "genai-pj-m5", course: "GenAI", title: "Project M5", category: "Project", dueDate: "2026-03-18" },
-  { id: "genai-pj-final", course: "GenAI", title: "Project (Final Submission)", category: "Project", dueDate: "2026-03-30" }
+  { id: "mad1-pj", course: "MAD I", title: "Project", category: "Project", dueDate: "2026-07-14" },
+  { id: "mad2-pj", course: "MAD II", title: "Project", category: "Project", dueDate: "2026-08-09" },
+  { id: "mlp-pj-m1", course: "MLP", title: "Project M1", category: "Project", dueDate: "2026-06-21" },
+  { id: "mlp-pj-m2", course: "MLP", title: "Project M2", category: "Project", dueDate: "2026-06-28" },
+  { id: "mlp-pj-m3", course: "MLP", title: "Project M3", category: "Project", dueDate: "2026-07-05" },
+  { id: "mlp-pj-m4", course: "MLP", title: "Project M4", category: "Project", dueDate: "2026-07-12" },
+  { id: "mlp-pj-m5", course: "MLP", title: "Project M5 (Final)", category: "Project", dueDate: "2026-07-21" },
+  { id: "genai-pj-m1", course: "GenAI", title: "Project M1", category: "Project", dueDate: "2026-06-24" },
+  { id: "genai-pj-m2", course: "GenAI", title: "Project M2", category: "Project", dueDate: "2026-07-01" },
+  { id: "genai-pj-m3", course: "GenAI", title: "Project M3", category: "Project", dueDate: "2026-07-08" },
+  { id: "genai-pj-m4", course: "GenAI", title: "Project M4", category: "Project", dueDate: "2026-07-15" },
+  { id: "genai-pj-m5", course: "GenAI", title: "Project M5", category: "Project", dueDate: "2026-07-21" },
+  { id: "genai-pj-final", course: "GenAI", title: "Project (Final Submission)", category: "Project", dueDate: "2026-07-26" }
 ];
 const weeklyGADeadlines = [
   { week: 1, dueDate: "2026-02-18" },
