@@ -19224,17 +19224,7 @@ function Dashboard() {
         ] })
       ] }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-none flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 p-1 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md shadow-2xl", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "button",
-          {
-            onClick: () => setView("theory"),
-            className: cn(
-              "px-4 py-2 text-[10px] font-black uppercase tracking-[0.1em] rounded-xl transition-all duration-300",
-              view === "theory" ? "bg-primary text-white shadow-lg shadow-primary/20" : "text-muted-foreground hover:text-foreground"
-            ),
-            children: "Theory"
-          }
-        ),
+        /* @__PURE__ */ 
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "button",
           {
